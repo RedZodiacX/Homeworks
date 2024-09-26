@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Funtions from './Components/funtions';
+import Pila from './Components/challenges/pila';
+import filas from './Components/challenges/filas';
+import arbol from './Components/challenges/arbol';
+import GifGrid from './Components/GifGrid';
+import { Father } from './Components/challenges/challenge8/Father';
+import { TodoApp } from './Components/challenges/challenge9/TodoApp';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Funtions />
+    <TodoApp />
   </React.StrictMode>
 );
 
